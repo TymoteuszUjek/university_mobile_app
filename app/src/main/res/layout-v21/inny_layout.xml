@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="4"
+    android:padding="5dp">
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/witaj_w_sajmon_says" />
+
+    <Button
+        android:id="@+id/buttonRed"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:backgroundTint="#ff0000"
+        android:text="@string/red"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/buttonYellow"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:backgroundTint="#e6cf00"
+        android:text="@string/yellow" />
+
+    <Button
+        android:id="@+id/buttonBlue"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:backgroundTint="#0000ff"
+        android:text="@string/blue" />
+
+    <Button
+        android:id="@+id/buttonGreen"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:backgroundTint="#00ff00"
+        android:text="@string/green" />
+
+</LinearLayout>

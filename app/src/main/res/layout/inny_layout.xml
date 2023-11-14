@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:padding="5dp">
+
+    <Button
+        android:id="@+id/buttonStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:onClick="StartGame"
+        android:text="@string/start" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/witaj_w_sajmon_says" />
+
+    <Button
+        android:id="@+id/buttonRed"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:editable="false"
+        android:onClick="checkButton"
+        android:text="@string/red"
+        android:textColor="#000000"
+        app:backgroundTint="#ff0000"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/buttonYellow"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:editable="false"
+        android:onClick="checkButton"
+        android:text="@string/yellow"
+        android:textColor="#000000"
+        app:backgroundTint="#ffff00"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/buttonBlue"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:editable="false"
+        android:onClick="checkButton"
+        android:text="@string/blue"
+        android:textColor="#000000"
+        app:backgroundTint="#0000ff"
+        tools:targetApi="lollipop" />
+
+    <Button
+        android:id="@+id/buttonGreen"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:editable="false"
+        android:onClick="checkButton"
+        android:text="@string/green"
+        android:textColor="#000000"
+        app:backgroundTint="#00ff00"
+        tools:targetApi="lollipop" />
+
+</LinearLayout>
